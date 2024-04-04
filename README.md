@@ -9,4 +9,5 @@ Implemenetation of NLP mini tasks for NLP course in Shahid Beheshti university
 * LSTM3 = cnn(64,7)-dp-cnn(32,7)-dp-GRU(60)-maxpool- dense
 * GRU1 glove-gru(50)-maxpool-dp(0.2)-dense(50)-dp(0.1)-dense(50)-dp(0.1)-dense
 * GRU2 glove-gru(50)-gru(32)-maxpool-dense(50)-dp(0.1)-dense
- 
+
+2. **Persian embedding:**  I have used FastText and Word2Vec from Gensim library to create embedding modules and for the Persian text proccessing part, both Hazm and Spacy have been used. Using this script you can create the word and text embeddings on Persian Corpus and then visualize it. 
